@@ -1,2 +1,2 @@
 # JavaScript-Notes
-![image](https://github.com/dpvasani/JavaScript-Notes/assets/109815626/d3d40e01-4ea2-4700-8b65-4020a95c6d14)
+[![MasterHead](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)](https://dkrupali56.io)
