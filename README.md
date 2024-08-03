@@ -4,10 +4,6 @@
 ###  Repo Contain JavaScript Notes Till Chapter 8 Of Code With Harry
 ## Made By Dp Vasani
 
-Here's the complete README file for your `JavaScript-Notes` repository:
-
----
-
 # JavaScript-Notes
 
 
