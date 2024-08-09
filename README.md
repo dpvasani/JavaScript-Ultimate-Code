@@ -9,7 +9,6 @@
 
 Welcome to the **JavaScript-Notes** repository! This repository contains a comprehensive collection of JavaScript notes and practice sets designed to help you master the fundamentals and advanced concepts of JavaScript. Each chapter focuses on a specific topic and includes practice exercises to reinforce your understanding.
 
-Welcome to the **JavaScript-Notes** repository! This repository contains a comprehensive collection of JavaScript notes and practice sets designed to help you master the fundamentals and advanced concepts of JavaScript. Each chapter focuses on a specific topic and includes practice exercises to reinforce your understanding.
 
 ## Table of Contents
 
