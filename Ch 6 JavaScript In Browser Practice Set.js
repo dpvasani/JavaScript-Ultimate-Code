@@ -1,4 +1,4 @@
-//                     Ch 6 JavaScript In Browser Practice Set
+//                Ch 6 JavaScript In Browser Practice Set
 
 // Q1)How can you log a message to the console using the console object?
 

@@ -50,7 +50,7 @@
 // The basic code is:
 
 
-Example:
+// Example:
 
 // id = setInterval(frame, 5);
 
@@ -256,7 +256,7 @@ Example:
 // element.addEventListener("mouseover", myFunction);
 // element.addEventListener("click", mySecondFunction);
 // element.addEventListener("mouseout", myThirdFunction);
-// Add an Event Handler to the window Object
+// Add an 4Event Handler to the window Object
 // The addEventListener() method allows you to add event listeners on any HTML DOM object such as HTML elements, the HTML document, the window object, or other objects that support events, like the xmlHttpRequest object.
 
 // Example

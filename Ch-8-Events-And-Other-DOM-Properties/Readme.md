@@ -408,3 +408,54 @@ By the end of the script execution, the DOM structure will be significantly modi
 5. `beforeunload` - Fired when the page is about to be unloaded.
 6. `hashchange` - Fired when the fragment identifier of the URL has changed.
 7. `popstate` - Fired when the active history entry changes.
+
+To add multiple event listeners to an element in JavaScript, you can use the `addEventListener` method for each event you want to listen to. Each call to `addEventListener` can attach a different event and handler to the same element.
+
+### Example: Adding Multiple Events to a Button
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Events Example</title>
+</head>
+<body>
+
+<button id="myButton">Click Me</button>
+
+<script>
+    // Get the button element
+    const button = document.getElementById('myButton');
+
+    // Add a click event listener
+    button.addEventListener('click', function() {
+        alert('Button clicked!');
+    });
+
+    // Add a mouseover event listener
+    button.addEventListener('mouseover', function() {
+        button.style.backgroundColor = 'lightblue';
+    });
+
+    // Add a mouseout event listener
+    button.addEventListener('mouseout', function() {
+        button.style.backgroundColor = '';
+    });
+
+    // Add a double click event listener
+    button.addEventListener('dblclick', function() {
+        alert('Button double-clicked!');
+    });
+</script>
+
+</body>
+</html>
+```
+
+### Explanation:
+- **Click Event:** Displays an alert when the button is clicked.
+- **Mouseover Event:** Changes the button's background color when the mouse hovers over it.
+- **Mouseout Event:** Resets the button's background color when the mouse moves away.
+- **Double Click Event:** Displays an alert when the button is double-clicked.

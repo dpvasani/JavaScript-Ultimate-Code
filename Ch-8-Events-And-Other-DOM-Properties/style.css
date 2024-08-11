@@ -16,3 +16,13 @@ html {
 .text-dark {
   color: black;
 }
+
+.bulb{
+  height : 341px;
+  width : 341px;
+  background:yellow;
+}
+.bulbcontainer{
+  height : 341px;
+  width : 341px;
+}

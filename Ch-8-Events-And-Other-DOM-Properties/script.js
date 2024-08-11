@@ -116,11 +116,11 @@
 // ClassName & ClassList
 // className -> Used To Add/Remove/Toggle A Class
 // classList -> Used To Add/Remove/Toggle A Class
-first.className = "text-black red"
-first.classList.remove("red") // Remove Karva
-first.classList.add("red") // Add Karva 
-first.classList.toggle("red") // He To Hata Dega Nahi He to Laga Dega
-first.classList.contains("red")  // Check If Contain  Or Not? -> True False
+// first.className = "text-black red"
+// first.classList.remove("red") // Remove Karva
+// first.classList.add("red") // Add Karva 
+// first.classList.toggle("red") // He To Hata Dega Nahi He to Laga Dega
+// first.classList.contains("red")  // Check If Contain  Or Not? -> True False
 
 // SetTimeout And SetInterval
 
@@ -161,6 +161,7 @@ first.classList.contains("red")  // Check If Contain  Or Not? -> True False
 // clearInterval(a) -> To Clear The SetInterval
 
 // Browser Events
+
 // An Event Is A Signal That Something Has Happened.
 // All Dom Node Generate Such Signal 
 
@@ -177,8 +178,9 @@ first.classList.contains("red")  // Check If Contain  Or Not? -> True False
 //   alert("Hello World1!")
 // }
 
-// let a= document.getElementsByClassName("container")[0]
-// a.onclick = () =>{
+// let a = document.getElementsByClassName("container")[0]
+// console.log(a)
+// a.onclick = () => {
 //   let b = document.getElementsByClassName("container")[0]
 //   b.innerHTML = "Hello World!"
 // }
@@ -191,5 +193,96 @@ first.classList.contains("red")  // Check If Contain  Or Not? -> True False
 
 // addEventListener(event, handler) and removeEventListener(event, handler)
 
+// Handler Must Be Same While Removing It
+
 // addeventListener -> To Assign Multiple Handlers To An Event
+
+// let x = function(e) {
+//   alert("Hello World1!")
+// }
+// let y = function(e) {
+//   console.log(e) // Event Object -> Pointing To The Our Function  
+//   // console.log(e.target)
+//   alert("Hello World2!")
+// }
+// btn.addEventListener('click', x)
+
+// btn.addEventListener('click', function(e) {
+//   alert("Hello World2!")
+// })
+
+// btn.addEventListener('click', y)
+
+// let a = prompt("What is Your Favourite Number?");
+// if (a == "2") {
+//   btn.removeEventListener('click', x)
+// }
+
+// For This Work FUnction OBject Same Hona Cahiye -> Means That We Want to Remove Function y thatn We Must Pass The Function y So That Function Object Can Removed
+
+
+// Event Object
+
+// When An Event Happens, The Browser Creates An Event Object, Put Details In It And Pass It As And Passes It As An Argument To The Handler
+
+// elem.onclick = function(event){
+// Code
+// }
+
+// event.type -> Event Type
+// event.currentTarget -> Element That Handled The Event
+// event.clientX/ event.clientY -> Coordinates Of Cursor
+
+
+// Practice Set
+
+// Q1 -> Create A Website Which Stores Bookmarks Of Your Favourite Website Using href
+// Ans: Ans On HTML File
+// Q2 -> Write A Program To  Show Different Alerts When Different Buttons Are Clicked
+// Ans: Ans On HTML File
+// Q3 -> Create A Website Which Stores Bookmarks Of Your Favourite Website Using Event Listeners
+// document.getElementById("google").addEventListener("click", function() {
+//   window.location = "https://www.google.com";
+//   win.focus();
+// })
+// document.getElementById("fb").addEventListener("click", function() {
+//   window.location = "https://www.facebook.com";
+//   win.focus();
+// })
+// document.getElementById("twitter").addEventListener("click", function() {
+//   window.location = "https://www.twitter.com";
+//   win.focus();
+// })
+// document.getElementById("insta").addEventListener("click", function() {
+//   window.location = "https://www.instagram.com";
+//   win.focus();
+// })
+
+
+// Q4 -> Write A JavaScript Program To Keep fetcing contents of a website (Every 5 Seconds)
+
+// setInterval(async function() {
+//   let url = "https://jsonplaceholder.typicode.com/todos/1"
+//   console.log(await fetchContent(url))
+// },3000)
+
+// const fetchContent = async (url) =>{
+//   con = await fetch(url);
+//   let a = await con.json()
+//   return a;
+// }
+
+// Q5 -> Create A Glowing Bulb Effect Using ClassList Toggle Method In JavaScript
+
+
+// setInterval(async function(){
+//   document.querySelector("#bulb").classList.toggle("bulb")
+// },300)
+
+// Clock
+
+// let a = new Date()
+// let h = a.getHours()
+// let m = a.getMinutes()
+// let s = a.getSeconds()
 

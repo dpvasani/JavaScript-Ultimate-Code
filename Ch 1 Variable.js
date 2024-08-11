@@ -8,7 +8,7 @@
 // Let Can Be Updated But Not Re-declared
 //Const -> Neither Updated Nor Re-declared
 // Var -> Can Be Updated And Re-declared 
-// Var & Let Is Initialized With Undefined ->  Const Are Not -> 
+// Var & Let Is Initialized With Undefined ->  Const Are Not
 var dp;
 let ap;
 const hp; //Error
