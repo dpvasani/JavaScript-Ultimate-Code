@@ -1,3 +1,22 @@
+![GSSoC '24 Mentor  7K+ Family @Linkedin  Mentor At @topmate io  Building @CryptoMinds  MERN Stack Web Developer  Web 3 0  Blockchain Developer  Career Counselor  Graphic Designer](https://github.com/user-attachments/assets/fbad9128-07fc-4118-b21f-7da0371384c1)
+
+## 🌐 Socials:
+
+
+<h3 align="left">Connect with me : </h3>
+<p align="left">
+  <a href="https://x.com/vasanidarshan56" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dpvasani_56" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/dpvasani56/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Darshan Vasani" height="30" width="40" /></a>
+  <a href="https://www.instagram.com/dp_vasani56" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dp_vasani56" height="30" width="40" /></a>
+  <a href="https://leetcode.com/u/dpvasani_56/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="dpvasani_56" height="30" width="40" /></a>
+  <a href="https://www.geeksforgeeks.org/user/vadanidp0qg/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="vadanidp0qg" height="30" width="40" /></a>
+  <a href="https://linktr.ee/dpvasani56" target="blank"><img align="center" src="https://github.com/dpvasani/dpvasani/assets/109815626/789d1777-6921-4b0f-8740-e85977a95dfc" alt="dpvasani56" height="40" width="40" /></a>
+  <a href="https://topmate.io/dpvasani_56" target="blank"><img align="center" src="https://github.com/dpvasani/dpvasani/assets/109815626/32b286b1-8629-4a9f-b264-5616342de401" alt="dpvasani_56" height="30" width="30" /></a>
+</p>
+
+
+
+
 [![MasterHead](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)](https://github.com/dpvasani/JavaScript-Ultimate-Code)
 
 # JavaScript Ultimate Code
