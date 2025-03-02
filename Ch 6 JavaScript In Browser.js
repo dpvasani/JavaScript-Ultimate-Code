@@ -64,9 +64,9 @@
 
 // The console object in JavaScript provides a set of methods that allow developers to interact with the browser's console. These methods are useful for logging messages, debugging code, and monitoring the execution of JavaScript code. Here are some commonly used methods of the console object along with examples:
 
-// console.log(conslole) -> List All Console Method
+// console.log(console) -> List All Console Method
 
-// External JS is Better To Use  -> Sepration Of Concerns & Browser Caching -> Browser Save That FIle SO We Not Load Again It
+// External JS is Better To Use  -> Separation Of Concerns & Browser Caching -> Browser Save That FIle SO We Not Load Again It
 
 // log(): Logs a message to the console.
 

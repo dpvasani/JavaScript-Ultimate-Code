@@ -286,7 +286,7 @@ console.log(`Darshan\'s DOM Notes`);
 
 // Auto Correction -> 
 
-//    <span>This is me</div>  -> Browser will autocorrect this
+//    <span>This is me</div>  -> Browser will auto correct this
 
 //                   Access HTML Element
 
@@ -360,7 +360,7 @@ console.log(`Darshan\'s DOM Notes`);
 // querySelectorAll methods, which allow you to select elements
 // using CSS selectors. The querySelector method returns the first
 // element that matches the selector, while querySelectorAll
-// returns a collection of allmatching elements. like this:
+// returns a collection of all matching elements. like this:
 // HTML
 // <p class="mySelector">This is a paragraph.</p>
 

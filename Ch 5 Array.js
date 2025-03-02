@@ -265,7 +265,7 @@ console.log(typeof fruits)  // Object
 // console.log(Array.isArray([])); // Output: true
 // console.log(Array.isArray({})); // Output: false
 
-.
+
 // 18. join()
 
 // Joins all elements of an array into a string.

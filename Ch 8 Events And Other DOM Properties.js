@@ -213,12 +213,12 @@
 
 // btn.addEventListener('click', y)
 
-// let a = prompt("What is Your Favourite Number?");
+// let a = prompt("What is Your Favorite Number?");
 // if (a == "2") {
 //   btn.removeEventListener('click', x)
 // }
 
-// For This Work FUnction OBject Same Hona Cahiye -> Means That We Want to Remove Function y thatn We Must Pass The Function y So That Function Object Can Removed
+// For This Work FUnction OBject Same Hona Cahiye -> Means That We Want to Remove Function y than We Must Pass The Function y So That Function Object Can Removed
 
 
 // Event Object
@@ -236,11 +236,11 @@
 
 // Practice Set
 
-// Q1 -> Create A Website Which Stores Bookmarks Of Your Favourite Website Using href
+// Q1 -> Create A Website Which Stores Bookmarks Of Your Favorite Website Using href
 // Ans: Ans On HTML File
 // Q2 -> Write A Program To  Show Different Alerts When Different Buttons Are Clicked
 // Ans: Ans On HTML File
-// Q3 -> Create A Website Which Stores Bookmarks Of Your Favourite Website Using Event Listeners
+// Q3 -> Create A Website Which Stores Bookmarks Of Your Favorite Website Using Event Listeners
 // document.getElementById("google").addEventListener("click", function() {
 //   window.location = "https://www.google.com";
 //   win.focus();
@@ -259,7 +259,7 @@
 // })
 
 
-// Q4 -> Write A JavaScript Program To Keep fetcing contents of a website (Every 5 Seconds)
+// Q4 -> Write A JavaScript Program To Keep fetching contents of a website (Every 5 Seconds)
 
 // setInterval(async function() {
 //   let url = "https://jsonplaceholder.typicode.com/todos/1"

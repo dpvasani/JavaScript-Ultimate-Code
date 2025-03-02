@@ -1,8 +1,8 @@
 // Element Tab -> All Element 
-// Onsole Tab -> All The Error Plus Logs 
+// console Tab -> All The Error Plus Logs 
 // Network Tab -> All The Network Request And Requirement
 
-// External File For Js  -> File Cache Ho Jati he So Website Fast WOrk Karti He 
+// External File For Js  -> File Cache Ho Jati he So Website Fast Work Karti He 
 // We Can Add Js In Script Tag Also
 // <script src="script.js"></script>
 // <script></script>
@@ -48,7 +48,7 @@
 //   document.write("Please Allow Me To Write")
 // }
 
-// This Will Stop Screen Exicution Thats Why Not Suggested To Use That In User Side Plus Look Like Olde Vintage Website So -> Use In Admin Panel 
+// This Will Stop Screen Execution Thats Why Not Suggested To Use That In User Side Plus Look Like Old Vintage Website So -> Use In Admin Panel 
 
 // BOM And DOM
 
@@ -57,7 +57,7 @@
 console.log(window)
 // window.console.log(window) -> Same Work Above 
 
-// window is global object under that -> Bom , Dom , Js Core Feture Lies 
+// window is global object under that -> Bom , Dom , Js Core Feature Lies 
 
 // Apke Pure HTML Page ko Document Represent Karta Hai -> Pure Page Ka Object Banke Usko Document Name De Diya Gaya He
 console.log(document)

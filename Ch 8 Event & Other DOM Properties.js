@@ -3,7 +3,7 @@
 // Event Handling
 // Now, let's discuss Event Handling using Javascript:
 // Event Handling:
-// Event handlling in JavaScript with the HTML DOM
+// Event handling in JavaScript with the HTML DOM
 // (Document Object Model) allows you to respond
 // to user interactions or other events that occur on
 // a webpage  

@@ -148,10 +148,10 @@
 // let a = returnFunc()
 // a()
 
-// Closure -> Function + Its Lexicale Environment
+// Closure -> Function + Its Lexical Environment
 // Reference Milta He
 
-// Lexicale Environment -> The Environment Of The Function -> Mere Pass Nahi He To Mere Pass Ka Environment Me Ase Check Karega
+// Lexical Environment -> The Environment Of The Function -> Mere Pass Nahi He To Mere Pass Ka Environment Me Ase Check Karega
 
 // Arrow Funcion 
 
@@ -177,7 +177,7 @@
 // console.log(x.name, x.exp)
 // x.show()
 
-// Arrow Function Uses Lexicale This
+// Arrow Function Uses Lexical This
 
 // Practice Set 
 
@@ -230,7 +230,7 @@
 // Asynchronous CallBack
 // Sometimes the JavaScript code can take a lot of time and this can block the
 // page re render
-// JavaScript has asynchronous callbacks for non blocking behaviour
+// JavaScript has asynchronous callbacks for non blocking behavior
 // JavaScript runtime can do only one thing at a time
 // Browser gives us other things which work along with the runtime like Web
 // APIs.
