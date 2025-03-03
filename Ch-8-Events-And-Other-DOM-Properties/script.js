@@ -125,9 +125,9 @@
 // SetTimeout And SetInterval
 
 // setTimeout(function, <delay>, <arg1>, <arg2>) 
-// setTimeOut -> Kuch Time Ke Bad Apni JS Ko excute Karna Hoga -> Excute The Js After Certain Time 
+// setTimeOut -> Kuch Time Ke Bad Apni JS Ko execute Karna Hoga -> Execute The Js After Certain Time 
 // clearTimeout -> To Clear The SetTimeout
-// setInterval -> In Certain Interval Of Time Hame Bar Bar Apni Js Ko Excute Karna Hoga -> Excute The Js After Certain Time(Interval)
+// setInterval -> In Certain Interval Of Time Hame Bar Bar Apni Js Ko Execute Karna Hoga -> Execute The Js After Certain Time(Interval)
 // setTimeout -> Is Function Ko Run Kardo Itne Time Ke Bad
 
 // alert("Hello")
@@ -218,7 +218,7 @@
 //   btn.removeEventListener('click', x)
 // }
 
-// For This Work FUnction OBject Same Hona Cahiye -> Means That We Want to Remove Function y thatn We Must Pass The Function y So That Function Object Can Removed
+// For This Work Function OBject Same Hona Cahiye -> Means That We Want to Remove Function y that We Must Pass The Function y So That Function Object Can Removed
 
 
 // Event Object

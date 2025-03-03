@@ -1,5 +1,5 @@
 // Ch 9 Callbacks, Promises And Async/Await
-// Asyncrounous Action Are Action That We Initiate Now And They Finish Later. E.g. SetTimeout
+// Asynchronous Action Are Action That We Initiate Now And They Finish Later. E.g. SetTimeout
 // Synchronous Action Are Action That Initiate And Finish One By One.
 
 // Callbacks Function
@@ -23,7 +23,7 @@
 
 
 // Ch 9 Callbacks, Promises And Async/Await
-// Asyncrounous Action Are Action That We Initiate Now And They Finish Later. E.g. SetTimeout
+// Asynchronous Action Are Action That We Initiate Now And They Finish Later. E.g. SetTimeout
 // Synchronous Action Are Action That Initiate And Finish One By One.
 
 // Callbacks Function
