@@ -153,7 +153,7 @@
 
 // Lexical Environment -> The Environment Of The Function -> Mere Pass Nahi He To Mere Pass Ka Environment Me Ase Check Karega
 
-// Arrow Funcion 
+// Arrow Function 
 
 // const sayHello = name => {
 //   console.log("greeting" + " " + name)
@@ -219,7 +219,7 @@
 
 // console.log(simpleInterest(100, 5, 1))
 
-// Regex Expression Or Regula Expression  
+// Regex Expression Or Regular Expression  
 // https://regexr.com/
 // const regex = /(Harry){2}/gi
 // const text = "Harryharry is a very very nice awesome nice very boy"

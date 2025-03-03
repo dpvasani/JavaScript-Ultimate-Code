@@ -54,7 +54,7 @@
 
 // loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css", hello)
 
-// This Is Call Back Of Asycnrounous Programing. A function Does Somethuing  Asycnrounously Should Provide A Callback Function As An Argument. Where We Put The Code That We Want To Run After Some Action Has Been Performed.
+// This Is Call Back Of Asynchronous Programming. A function Does Something  Asynchronously Should Provide A Callback Function As An Argument. Where We Put The Code That We Want To Run After Some Action Has Been Performed.
 
 // Handling Error :
 
@@ -137,9 +137,9 @@
 //Callback Ak Asa Function Jo Ki App Pass Kar Sakte Ho As Perameter In Another Function
 // Hera operation, function(num1, num2) {
 // return num1 + num2
-// }   , substraction, multiply Are Callback Functions
+// }   , subtraction, multiply Are Callback Functions
 
-// Array Calback Function -> find(), filter(), map(), forEach(), every(), some(), reduce(), reduceRight(), indexOf(), lastIndexOf(), includes(), findIndex()
+// Array Callback Function -> find(), filter(), map(), forEach(), every(), some(), reduce(), reduceRight(), indexOf(), lastIndexOf(), includes(), findIndex()
 
 
 
@@ -199,12 +199,12 @@
 // })
 // })
 
-// As Calls Become More Nested , The Code Become Deeper and Increasing More Difficult To Manage, Especially If We Have Real Code Insted Of ...  -> This is Called As Pyramid Of Dom Or Callback Hell.
+// As Calls Become More Nested , The Code Become Deeper and Increasing More Difficult To Manage, Especially If We Have Real Code Instead Of ...  -> This is Called As Pyramid Of Dom Or Callback Hell.
 
-// The Pyramid Of These CallBacks Grows Towards The Right With Every Asynchronous Action, Soon It Spreads Like Rain And Eventually Comes To The Top, Where All Work Is Done. -> Like Sprial Come Out Starting From Inside And Goes Outside.
+// The Pyramid Of These CallBacks Grows Towards The Right With Every Asynchronous Action, Soon It Spreads Like Rain And Eventually Comes To The Top, Where All Work Is Done. -> Like Spiral Come Out Starting From Inside And Goes Outside.
 
 // Solution Of This Problem Is Promises.
-// A Promsie Is A Promise Of Code Execution. The Code Either Executes Or Fails In Both The Cases Solution Will Be Notified 
+// A Promises Is A Promise Of Code Execution. The Code Either Executes Or Fails In Both The Cases Solution Will Be Notified 
 
 // Syntax :
 // let promise = new Promise(function(resolve, reject){
@@ -215,7 +215,7 @@
 
 // Resolve And Reject Are Callback Provided By JS Itself 
 
-// resolve(value) -> If The Job Is Finsihed Successfully
+// resolve(value) -> If The Job Is Finished Successfully
 // reject(error) -> If The Job Fails
 
 // The Promise Object Returned By The New Promise Constructor Has Four Properties :
@@ -233,14 +233,14 @@
 
 // If We Only Want To Know If The Promise Is Resolved Or Not We Can Use Promise.then()
 
-// If We are Intrested In Successfull Completion, We Can Provide Only One Function Argument To then();
+// If We are Interested In Successful Completion, We Can Provide Only One Function Argument To then();
 
 // let promise = new Promise(resolve => {
 //   setTimeout(() => resolve("Clone"), 1000);
 // });
 // promise.then(alert); // Clone
 
-// If We Are Intrested In Errors We Can Use Null As First Argument Of Than(null,f) Or We Can Use Catch
+// If We Are Interested In Errors We Can Use Null As First Argument Of Than(null,f) Or We Can Use Catch
 
 // promise.catch(alert); 
 // promise.finally(c)=>{}) Is Used To Perform General Cleanup
@@ -261,13 +261,13 @@
 // Print Downloading
 // Rest Of The Script
 
-// Promise Are Used To Do Parallel Programing
+// Promise Are Used To Do Parallel Programming
 
-// Let Say 50 Promise Are There With settimeOut of 5 second -> Than All Promises Fullfiled In 5 second -> Not In 250 Seconds -> That Is Paralal Programing
+// Let Say 50 Promise Are There With settimeOut of 5 second -> Than All Promises Full filed In 5 second -> Not In 250 Seconds -> That Is Parelal Programming
 
 // Fulfilled -> Two Ways 
-// 1. resolve(value) -> If The Job Is Finsihed Successfully -> fulfilled with Resolve
-// 2. reject(error) -> If The Job Fails -> Fulfilled With Rejct
+// 1. resolve(value) -> If The Job Is Finished Successfully -> fulfilled with Resolve
+// 2. reject(error) -> If The Job Fails -> Fulfilled With Reject
 
 
 
@@ -310,7 +310,7 @@
 
 // We Can Chain Promises And Make Sure That The Result Of A Promise Passes To Another Promise
 
-// Here Is The Flow Of Excution
+// Here Is The Flow Of Execution
 // 1. The initial promise resolves in 1 Second (Assumption)
 // 2. The next .then() handler is then called Which returns a new promise (Resolved With 2 Values)
 // 3. The next .then() gets the result of previous one and this is resolved to a new promise amd This Is Going On And On
@@ -377,8 +377,8 @@
 // Promise Chaining -> Run One By One 
 // Lets Say 10 Promise Chain Each Has SetTimeOut Of 5 Second -> Than Run In 50 Second 
 // Ak Ki Promise Ki value A Jane Par Dusri Promise -> Dusri Ki Value A Jane Par Tesri -> Tesri Ki Value A Jane Par Chauthi -> So and So 
-// Like We Are Passing One Promise Value In Seconf And Second Promise Value Passed On Third And So And So ->  Promise Chaining
-// Lets Say In 10 Promise Chaining Error Occured At 5th Promise Vo Directly Next Vala Catch Pakad Lega Other Promise Ko Skip Karke
+// Like We Are Passing One Promise Value In Second And Second Promise Value Passed On Third And So And So ->  Promise Chaining
+// Lets Say In 10 Promise Chaining Error Occurred At 5th Promise Vo Directly Next Vala Catch Pakad Lega Other Promise Ko Skip Karke
 
 // Multiple Handler In Promise -> Run Independent 
 // Lets Say 10 Promise Chain Each Has SetTimeOut Of 5 Second -> Than Run In 5 Second 
@@ -573,16 +573,16 @@
 // There Is Another Keyword Called Await That Works Only With Inside An Async Function
 
 // let value = await promise;
-// Promis Ki value  value Me A jayegi
+// Promises Ki value  value Me A jayegi
 
 // The Await Keyword Makes JavaScript Wait Until The Promise Settles And Returns Its Value.
 
-// It Just More Elegant Syntax Of Getting The Promise Result Than Using .then() And .catch() Plus It Easiar To Read And Write
+// It Just More Elegant Syntax Of Getting The Promise Result Than Using .then() And .catch() Plus It Easier To Read And Write
 
 
 // Error Handling
 
-// We All Make Mistakes In Our Codes. Also Sometimes Our Script Can Have Error In It. Usually Program Hault When Error Occurs.
+// We All Make Mistakes In Our Codes. Also Sometimes Our Script Can Have Error In It. Usually Program Halt When Error Occurs.
 
 // The Try And Catch Syntax Allow Us To Catch The Error So That Our Script Instead Of Dying Can Do Something More Relevant.
 
@@ -624,12 +624,12 @@
 // }, 4000) 
 
 // It Work Like This 
-// 1. First Code In try Will Excuted
-// 2. If There Is No Error In try Then Catch Is Ignored Else Catch Is Excuted
+// 1. First Code In try Will Executed
+// 2. If There Is No Error In try Then Catch Is Ignored Else Catch Is Executed
 
-// Try Catch Work Synchrounously
-// If An Exception Happen In Sheduled Code (e.g setTimeout) , Than Try Catch Wont Catch It:  -> In Short Script Die And Wont Work More
-// When Error Come -> Excution Will Stop And Catch Will Not Work
+// Try Catch Work Asynchronously
+// If An Exception Happen In Scheduled Code (e.g setTimeout) , Than Try Catch Wont Catch It:  -> In Short Script Die And Wont Work More
+// When Error Come -> Execution Will Stop And Catch Will Not Work
 
 // Ye Handle Nai Hoga
 
@@ -664,7 +664,7 @@
 // 2. message
 
 // we Can Use .stack To Get The Stack Trace Of The Error
-// Syntex:
+// Syntax:
 // try{
 //   hey ; // Invalid And Through Error -> Variable Is Not Defined
 // } catch(error){
@@ -677,13 +677,13 @@
 
 // We Can Throw Custom Error By Using The Throw Syntax
 
-// Syntex:
+// Syntax:
 
 // if(age>180){
 //   throw new Error("This Is Probably Not True")
 // }
 
-// We Can Also Throw A Particular Error By Using Buil In Constructor For Standard Error:
+// We Can Also Throw A Particular Error By Using Built In Constructor For Standard Error:
 // let error = new SyntaxError("This Is An Error")
 // let error = new ReferenceError("This Is An Error")
 
@@ -735,7 +735,7 @@
 // console.log("End")
 
 
-// Promise are Way Of Asynconouse Programing Ka
+// Promise are Way Of Asynchronous Programming Ka
 // Practice Set 
 // Q1 Write A Program to load a javascript file in a browser using promises. Use .then() to display an alert when the load is complete.
 

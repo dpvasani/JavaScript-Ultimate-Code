@@ -189,7 +189,7 @@
 
 // Class Child extends Parent
 
-// Parent Class Is The Class From Which Other Class Inherits.
+// Parent Classes Is The Class From Which Other Class Inherits.
 // class Animal {
 //   constructor(name, color) {
 //     this.name = name
@@ -253,9 +253,9 @@
 // e.login()
 // e.requestLeaves(3)
 
-// If We Create Our Own Implementation Of Run Method In Child Class, It Will Be Overridden.
+// If We Create Our Own Implimentstion Of Run Method In Child Class, It Will Be Overridden.
 
-// Super Keyword
+// Super Kewword
 // Super Keyword Is Used To Call The Parent Class Constructor.
 // When We Override A Method In Child Class, We Use Super Keyword To Call The Parent Class Method.
 
@@ -351,7 +351,7 @@
 
 // j = new Animal("jack")
 // j.walk()
-// console.log(j.capitalize("this")) // --- > this doesn't work
+// console.log(j.capitalize("thisa")) // --- > this doesnt work
 
 // Getters And Setters
 

@@ -1,11 +1,11 @@
 // Fetch API
 // The Fetch API provides a simple way to fetch resources (for example images, documents, or streams) over the internet 
 
-// JavaScrript Can Be Used To Send And Retrieve Information From The Network When Needed (AJAX)
+// JavaScript Can Be Used To Send And Retrieve Information From The Network When Needed (AJAX)
 
-// AJAX Used Earliear -> Now JSON Is Widly Used
+// AJAX Used Earlier -> Now JSON Is Widely Used
 
-// AJAX -> Asychronous JavaScript And XML
+// AJAX -> Asynchronous JavaScript And XML
 
 // Fetch API
 
@@ -38,7 +38,7 @@
 
 // let res = fetch(url, {
 //         header: {
-//                 Authentication: 'Secreat'
+//                 Authentication: 'Secret'
 //         }
 // });
 
@@ -59,7 +59,7 @@
 // Data Is The Actual Result Of The Request
 
 // POST Request
-// To Make Posr Request, We Need To Use Fetch Options
+// To Make Post Request, We Need To Use Fetch Options
 // Method -> HTTP Method, E.g POST
 // Body -> The Request Body
 
@@ -118,7 +118,7 @@
 // We Can Also Access Cookies Using document.cookie Property
 // alert(document.cookie) -> Contain Key Value Pairs Decoded
 
-// Key Value Pair Are Seperated By Delimited By ; -> Key = Pair; 
+// Key Value Pair Are Separated By Delimited By ; -> Key = Pair; 
 
 // Writing A Cookie
 // An Assignment To Document.cookie Is Treated Specially In A Way That Write Operation Doesn't Touch Other Cookie
@@ -138,7 +138,7 @@
 
 // Encode URI Component -> This Function Encodes A Set Of Special Characters In A Way That The Component Can Be Decoded Using DecodeURI
 
-// This Function Helps Keep The Valid Formating. It Is Used Like This 
+// This Function Helps Keep The Valid Formatting. It Is Used Like This 
 
 // document.cookie = `${encodeURIComponent(key)}=${encodeURIComponent(value)}`
 
